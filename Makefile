@@ -3,7 +3,7 @@ rosetta.o: rosetta.c
 
 rosetta.dylib: rosetta.o
 	gcc -dynamiclib rosetta.o -o rosetta.dylib
-
+ 
 rosetta.so: rosetta.o
 	gcc -shared -o rosetta.so rosetta.o
 
